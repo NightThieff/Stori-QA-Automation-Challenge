@@ -1,0 +1,609 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-07T22:12:38.006Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1011858600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.stori.steps.hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "TECHCHALLENGE TECHCH003 Validation of Alerts",
+        "description": "",
+        "id": "alerts;techchallenge-techch003-validation-of-alerts",
+        "after": [
+          {
+            "result": {
+              "duration": 76794600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.stori.steps.hooks.Hooks.twerdown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6095148900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go to the Practice Page",
+            "match": {
+              "location": "qa.stori.steps.alertssteps.AlertSteps.go_to_the_practice_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 285237800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "In the Switch To Alert Example, type this String “Stori Card” and click the Alert button",
+            "match": {
+              "location": "qa.stori.steps.alertssteps.AlertSteps.in_the_switch_to_alert_example_type_this_string_stori_card_and_click_the_alert_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7978700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Print the text in the alert and click on OK",
+            "match": {
+              "location": "qa.stori.steps.alertssteps.AlertSteps.print_the_text_in_the_alert_and_click_on_ok()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172538000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Type again this String “Stori Card” on the same field and click on the Confirm button and print the text",
+            "match": {
+              "location": "qa.stori.steps.alertssteps.AlertSteps.type_again_this_string_stori_card_on_the_same_field_and_click_on_the_confirm_button_and_print_the_text()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5984700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Make sure that the String shown equals to the text of the document and click on OK",
+            "match": {
+              "location": "qa.stori.steps.alertssteps.AlertSteps.make_sure_that_the_string_shown_equals_to_the_text_of_the_document_and_click_on_ok()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Alerts"
+          }
+        ]
+      }
+    ],
+    "name": "Alerts",
+    "description": "",
+    "id": "alerts",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/tests/features/Alerts.feature",
+    "tags": [
+      {
+        "name": "@Alerts",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-07T22:12:45.782Z",
+        "before": [
+          {
+            "result": {
+              "duration": 675300200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.stori.steps.hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TECHCHALLENGE TECHCH001 Validation of Dropdown and Switch Window",
+        "description": "",
+        "id": "drop-switch;techchallenge-techch001-validation-of-dropdown-and-switch-window",
+        "after": [
+          {
+            "result": {
+              "duration": 83775600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.stori.steps.hooks.Hooks.twerdown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6502897000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to the Practicing Page",
+            "match": {
+              "location": "qa.stori.steps.dropswitchsteps.DropSwitchSteps.go_to_the_practicing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2301862800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the word Me and select Mexico",
+            "match": {
+              "location": "qa.stori.steps.dropswitchsteps.DropSwitchSteps.enter_the_word_something_and_select_mexico()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2177977400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "In the Dropdown Example select option two and then option three The user should be able to see the change",
+            "match": {
+              "location": "qa.stori.steps.dropswitchsteps.DropSwitchSteps.in_the_dropdown_example_select_option_2_and_then_option_3_the_user_should_be_able_to_see_the_change()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7854616000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "In the Switch Window Example, click the Open Window button",
+            "match": {
+              "location": "qa.stori.steps.dropswitchsteps.DropSwitchSteps.in_the_switch_window_example_click_the_open_window_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26073300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "If the thirty day money back guarantee text is not shown it should fail",
+            "match": {
+              "location": "qa.stori.steps.dropswitchsteps.DropSwitchSteps.if_the_something_text_is_not_shown_it_should_fail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30916400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the new window",
+            "match": {
+              "location": "qa.stori.steps.dropswitchsteps.DropSwitchSteps.close_the_new_window()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Drop-Switch"
+          }
+        ]
+      }
+    ],
+    "name": "Drop-Switch",
+    "description": "",
+    "id": "drop-switch",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/tests/features/Drop-Switch.feature",
+    "tags": [
+      {
+        "name": "@Drop-Switch",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-07T22:13:05.441Z",
+        "before": [
+          {
+            "result": {
+              "duration": 746005100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.stori.steps.hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TECHCHALLENGE TECHCH006 Validation of iFrame",
+        "description": "",
+        "id": "iframe;techchallenge-techch006-validation-of-iframe",
+        "after": [
+          {
+            "result": {
+              "duration": 61838200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.stori.steps.hooks.Hooks.twerdown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6357826800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to Practice Page",
+            "match": {
+              "location": "qa.stori.steps.iframesteps.IFrameSteps.go_to_practice_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190996800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "In the iFrame example, get the text highlighted in blue",
+            "match": {
+              "location": "qa.stori.steps.iframesteps.IFrameSteps.in_the_iframe_example_get_the_text_highlighted_in_blue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Print the text",
+            "match": {
+              "location": "qa.stori.steps.iframesteps.IFrameSteps.print_the_text()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@IFrame"
+          }
+        ]
+      }
+    ],
+    "name": "IFrame",
+    "description": "",
+    "id": "iframe",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/tests/features/IFrame.feature",
+    "tags": [
+      {
+        "name": "@IFrame",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-07T22:13:12.804Z",
+        "before": [
+          {
+            "result": {
+              "duration": 734926900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.stori.steps.hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "TECHCHALLENGE TECHCH002 Validation of Switch Tab with Scroll and Screenshot",
+        "description": "",
+        "id": "switch-scroll-screenshot;techchallenge-techch002-validation-of-switch-tab-with-scroll-and-screenshot",
+        "after": [
+          {
+            "result": {
+              "duration": 86772300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.stori.steps.hooks.Hooks.twerdown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6260106400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter to the Practice Page",
+            "match": {
+              "location": "qa.stori.steps.switchscrollscreenshotsteps.SwitchScrollScreenshotSteps.enter_to_the_practice_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 199466100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "On the Switch Tab Example, click the Open Tab button",
+            "match": {
+              "location": "qa.stori.steps.switchscrollscreenshotsteps.SwitchScrollScreenshotSteps.on_the_switch_tab_example_click_the_open_tab_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2194256800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "On the new tab Scroll until you see the red button with the text attached to the document",
+            "match": {
+              "location": "qa.stori.steps.switchscrollscreenshotsteps.SwitchScrollScreenshotSteps.on_the_new_tab_scroll_until_you_see_the_red_button_with_the_text_attached_to_the_document()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190366500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Take a screenshot that includes the button and save it with the name of the test case",
+            "match": {
+              "location": "qa.stori.steps.switchscrollscreenshotsteps.SwitchScrollScreenshotSteps.take_a_screenshot_that_includes_the_button_and_save_it_with_the_name_of_the_test_case()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Don\u0027t close the window, Return to the first window",
+            "match": {
+              "location": "qa.stori.steps.switchscrollscreenshotsteps.SwitchScrollScreenshotSteps.dont_close_the_window_return_to_the_first_window()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Switch-Scroll-Screenshot"
+          }
+        ]
+      }
+    ],
+    "name": "Switch-Scroll-Screenshot",
+    "description": "",
+    "id": "switch-scroll-screenshot",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/tests/features/Switch-Scroll-Screenshot.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-07T22:13:22.477Z",
+        "before": [
+          {
+            "result": {
+              "duration": 727059200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.stori.steps.hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TECHCHALLENGE TECHCH005 Validation of table fixed",
+        "description": "",
+        "id": "table-fixed;techchallenge-techch005-validation-of-table-fixed",
+        "after": [
+          {
+            "result": {
+              "duration": 72805000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.stori.steps.hooks.Hooks.twerdown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6377568800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter on the Practice Page",
+            "match": {
+              "location": "qa.stori.steps.tablefixedsteps.TableFixedSteps.enter_on_the_practice_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 331090900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "In the Web Table Fixed header, print the names of all the Engineers",
+            "match": {
+              "location": "qa.stori.steps.tablefixedsteps.TableFixedSteps.in_the_web_table_fixed_header_print_the_names_of_all_the_engineers()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Table-Fixed"
+          }
+        ]
+      }
+    ],
+    "name": "Table-Fixed",
+    "description": "",
+    "id": "table-fixed",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/tests/features/Table-Fixed.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-07T22:13:29.990Z",
+        "before": [
+          {
+            "result": {
+              "duration": 676190500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.stori.steps.hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TECHCHALLENGE TECHCH004 Validation of Table",
+        "description": "",
+        "id": "table;techchallenge-techch004-validation-of-table",
+        "after": [
+          {
+            "result": {
+              "duration": 61834600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.stori.steps.hooks.Hooks.twerdown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6388222400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter to the Practicing Page",
+            "match": {
+              "location": "qa.stori.steps.tablesteps.TableSteps.enter_to_the_practicing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 203546300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "In the Web Table Example, print the number of courses that are twenty five dollars",
+            "match": {
+              "location": "qa.stori.steps.tablesteps.TableSteps.in_the_web_table_example_print_the_number_of_courses_that_are_twenty_five_dollars()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222404400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Print their course names",
+            "match": {
+              "location": "qa.stori.steps.tablesteps.TableSteps.print_their_course_names()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Table"
+          }
+        ]
+      }
+    ],
+    "name": "Table",
+    "description": "",
+    "id": "table",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/tests/features/Table.feature",
+    "tags": []
+  }
+]
